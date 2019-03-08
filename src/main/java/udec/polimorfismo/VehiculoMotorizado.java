@@ -22,7 +22,9 @@ public abstract class VehiculoMotorizado extends Vehiculo{
     /**
      * Metodo que muestra la impresion propia de la clase vehiculo motorizado
      */
-    protected abstract void imprimirVehiculo();
+    protected  void imprimirVehiculo(){
+        System.out.println("Impresion de la clase vehiculo motorizado");   
+    }
     /**
      * retorna el tipo de combustible
      * @return tipoCombustible

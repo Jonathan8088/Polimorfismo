@@ -22,14 +22,14 @@ public class Patineta extends Vehiculo{
 
     @Override
     public void imprimirInterface() {
-        System.out.println("Impresion de Interface en Patineta");
+        System.out.println("\nImpresion de Interface en Patineta");
     }//imprimirInterface
     /**
      * metodo heredado de la clase vehiculo
      */
     @Override
     protected void imprimir() {
-        System.out.println("\nPATINETA");
+        System.out.println("PATINETA");
     }//imprimir
     /**
      * Metodo que muestra la impresion propia de la clase patineta

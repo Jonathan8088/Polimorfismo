@@ -27,7 +27,9 @@ public abstract class Vehiculo implements IVehiculo{
     /**
      * metodo que se va a heredar
      */
-    protected abstract void imprimir();
+    protected  void imprimir(){
+        System.out.println("Impresion de la clase vehiculo");
+    }
     /**
      * retorna el modelo del vehiculo
      * @return modelo

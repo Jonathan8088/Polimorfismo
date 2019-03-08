@@ -20,13 +20,6 @@ public class Bicicleta extends Vehiculo{
         this.numeroEngranajes = numeroEngranajes;
     }//constructor
     /**
-     * metodo heredado de la clase vehiculo
-     */
-    @Override
-    protected void imprimir() {
-        System.out.println("\nBICICLETA");
-    }//imprimir
-    /**
      * metodo que realiza la impresion propia de la clase bicicleta
      */
     public void imprimirBcicicleta(){
@@ -37,7 +30,7 @@ public class Bicicleta extends Vehiculo{
      */
     @Override
     public void imprimirInterface() {
-        System.out.println("Impresion de la interface en Bicicleta");
+        System.out.println("\nImpresion de la interface en Bicicleta");
     }//imprimirInterface
     /**
      * retorna el numero de engranajes de la bicicleta

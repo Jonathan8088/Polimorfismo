@@ -25,22 +25,8 @@ public class Jet extends VehiculoMotorizado{
      */
     @Override
     public void imprimirInterface() {
-        System.out.println("Impresion de la interface en Jet");
+        System.out.println("\nImpresion de la interface en Jet");
     }//imprimirInterface
-    /**
-     * metodo que especializa la impresion heredada de la clase vehiculo
-     */
-    @Override
-    protected void imprimir() {
-        System.out.println("\nJET");
-    }//imprimir
-    /**
-     * metodo que especializa la impresion heredada de la clase vehiculo motorizado
-     */
-    @Override
-    protected void imprimirVehiculo() {
-        System.out.println("Tipo de vehiculo motorizado");
-    }//imprimirVehiculo
     /**
      * metodo que muestra la impresio propia de la clase jet
      */

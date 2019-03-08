@@ -25,14 +25,14 @@ public class Carro extends VehiculoMotorizado{
      */
     @Override
     public void imprimirInterface() {
-        System.out.println("Impresion de la interface en Carro");
+        System.out.println("\nImpresion de la interface en Carro");
     }//imprimirInterface
     /**
      * metodo que especializa la impresion que hereda de la clase vehiculo
      */
     @Override
     protected void imprimir() {
-        System.out.println("\nCARRO");
+        System.out.println("CARRO");
     }//imprimir
     /**
      * metodo que especializa la impresion heredada de la clase vehiculo motorizado
