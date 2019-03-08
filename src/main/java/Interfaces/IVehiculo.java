@@ -1,4 +1,4 @@
-package udec.polimorfismo;
+package Interfaces;
 
 /**
  *interface que contiene metodo para implementar

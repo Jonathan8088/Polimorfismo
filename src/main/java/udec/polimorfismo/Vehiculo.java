@@ -1,5 +1,7 @@
 package udec.polimorfismo;
 
+import Interfaces.IVehiculo;
+
 /**
  *clase padre que contiene atributos y metodos del vehiculo
  * @author Jonathan
