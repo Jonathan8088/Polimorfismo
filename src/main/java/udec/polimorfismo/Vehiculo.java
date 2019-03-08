@@ -4,7 +4,7 @@ package udec.polimorfismo;
  *clase padre que contiene atributos y metodos del vehiculo
  * @author Jonathan
  */
-public class Vehiculo{
+public abstract class Vehiculo{
     /**
      * atributo que contiene el modelo del vehiculo
      */
@@ -25,9 +25,7 @@ public class Vehiculo{
     /**
      * metodo que se va a heredar
      */
-    protected void imprimir(){
-        System.out.println("Impresion clase Vehiculo");
-    }
+    protected abstract void imprimir();
     /**
      * retorna el modelo del vehiculo
      * @return modelo

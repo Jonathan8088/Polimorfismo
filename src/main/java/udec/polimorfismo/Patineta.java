@@ -24,12 +24,12 @@ public class Patineta extends Vehiculo{
      */
     @Override
     protected void imprimir() {
-        System.out.println("PATINETA");
+        System.out.println("\nPATINETA");
     }//imprimir
     /**
      * Metodo que muestra la impresion propia de la clase patineta
      */
-    private void imprimirPatineta(){
+    public void imprimirPatineta(){
         System.out.println("Modelo: "+modelo+" Marca: "+marca+" Tamaño Tabla: "+tamanoTabla);
     }//imprimirPatineta
     /**

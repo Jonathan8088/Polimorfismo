@@ -25,7 +25,7 @@ public class Jet extends VehiculoMotorizado{
      */
     @Override
     protected void imprimir() {
-        System.out.println("JET");
+        System.out.println("\nJET");
     }//imprimir
     /**
      * metodo que especializa la impresion heredada de la clase vehiculo motorizado
@@ -37,8 +37,8 @@ public class Jet extends VehiculoMotorizado{
     /**
      * metodo que muestra la impresio propia de la clase jet
      */
-    private void imprimirJet(){
-        System.out.println("soy jet");
+    protected void imprimirJet(){
+        System.out.println("Marca: "+marca+" Modelo: "+modelo+" Tipo de Combustible: "+tipoCombustible+" Numero de motores: "+numeroMotores);
     }//imprimirJet
     /**
      * retorna el numero de motores del jet

@@ -20,18 +20,9 @@ public abstract class VehiculoMotorizado extends Vehiculo{
         this.tipoCombustible = tipoCombustible;
     }//constructor
     /**
-     * metodo que hereda de la clase vehiculo
-     */
-    @Override
-    protected void imprimir() {
-        System.out.println("VEHICULO MOTORIZADO");
-    }//imprimir
-    /**
      * Metodo que muestra la impresion propia de la clase vehiculo motorizado
      */
-    protected void imprimirVehiculo(){
-        System.out.println("Modelo: "+modelo+" Marca: "+marca+" Tipo Combustible: "+tipoCombustible);
-    }//imprimirVehiculo
+    protected abstract void imprimirVehiculo();
     /**
      * retorna el tipo de combustible
      * @return tipoCombustible

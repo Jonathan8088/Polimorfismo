@@ -25,7 +25,7 @@ public class Carro extends VehiculoMotorizado{
      */
     @Override
     protected void imprimir() {
-        System.out.println("CARRO");
+        System.out.println("\nCARRO");
     }//imprimir
     /**
      * metodo que especializa la impresion heredada de la clase vehiculo motorizado
@@ -37,7 +37,7 @@ public class Carro extends VehiculoMotorizado{
     /**
      * metodo que muestra la impresion propia de la clase carro
      */
-    private void imprimirCarro(){
+    protected void imprimirCarro(){
         System.out.println("Modelo: "+modelo+" Marca: "+marca+" Tipo Combustible: ");
     }//imprimirCarro
     /**

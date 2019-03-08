@@ -24,12 +24,12 @@ public class Bicicleta extends Vehiculo{
      */
     @Override
     protected void imprimir() {
-        System.out.println("Bicicleta");
+        System.out.println("\nBICICLETA");
     }//imprimir
     /**
      * metodo que realiza la impresion propia de la clase bicicleta
      */
-    private void impriirBcicicleta(){
+    public void imprimirBcicicleta(){
         System.out.println("Modelo: "+modelo+" Marca: "+marca+" Numero Engranajes: "+numeroEngranajes);
     }//impriirBcicicleta
     /**
