@@ -4,7 +4,7 @@ package udec.polimorfismo;
  *clase padre que contiene atributos y metodos del vehiculo
  * @author Jonathan
  */
-public abstract class Vehiculo{
+public abstract class Vehiculo implements IVehiculo{
     /**
      * atributo que contiene el modelo del vehiculo
      */

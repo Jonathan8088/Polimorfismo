@@ -21,6 +21,13 @@ public class Carro extends VehiculoMotorizado{
         this.cilindraje = cilindraje;
     }//constructor
     /**
+     * metodo de impresion implementado de la interface
+     */
+    @Override
+    public void imprimirInterface() {
+        System.out.println("Impresion de la interface en Carro");
+    }//imprimirInterface
+    /**
      * metodo que especializa la impresion que hereda de la clase vehiculo
      */
     @Override

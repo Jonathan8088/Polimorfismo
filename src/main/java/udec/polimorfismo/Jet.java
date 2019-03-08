@@ -21,6 +21,13 @@ public class Jet extends VehiculoMotorizado{
         this.numeroMotores = numeroMotores;
     }//constructor
     /**
+     * metodo de impresion implementado de la interface
+     */
+    @Override
+    public void imprimirInterface() {
+        System.out.println("Impresion de la interface en Jet");
+    }//imprimirInterface
+    /**
      * metodo que especializa la impresion heredada de la clase vehiculo
      */
     @Override

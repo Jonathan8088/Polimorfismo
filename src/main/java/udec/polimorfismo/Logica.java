@@ -1,8 +1,3 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package udec.polimorfismo;
 
 import java.util.ArrayList;
@@ -43,16 +38,20 @@ public class Logica {
     private void imprimirLista(){
         for (Vehiculo vehiculo1 : vehiculo) {
             if(vehiculo1 instanceof Patineta){
+                ((Patineta)vehiculo1).imprimirInterface();
                 ((Patineta)vehiculo1).imprimir();
                 ((Patineta)vehiculo1).imprimirPatineta();
             }else if(vehiculo1 instanceof Bicicleta){
+                ((Bicicleta)vehiculo1).imprimirInterface();
                 ((Bicicleta)vehiculo1).imprimir();
                 ((Bicicleta)vehiculo1).imprimirBcicicleta();
             }else if(vehiculo1 instanceof Carro){
+                ((Carro)vehiculo1).imprimirInterface();
                 ((Carro)vehiculo1).imprimir();
                 ((Carro)vehiculo1).imprimirVehiculo();
                 ((Carro)vehiculo1).imprimirCarro();
             }else if(vehiculo1 instanceof Jet){
+                ((Jet)vehiculo1).imprimirInterface();
                 ((Jet)vehiculo1).imprimir();
                 ((Jet)vehiculo1).imprimirVehiculo();
                 ((Jet)vehiculo1).imprimirJet();

@@ -19,6 +19,11 @@ public class Patineta extends Vehiculo{
         super(modelo, marca);
         this.tamanoTabla = tamanoTabla;
     }//constructor
+
+    @Override
+    public void imprimirInterface() {
+        System.out.println("Impresion de Interface en Patineta");
+    }//imprimirInterface
     /**
      * metodo heredado de la clase vehiculo
      */

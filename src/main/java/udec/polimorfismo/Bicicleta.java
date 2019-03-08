@@ -33,6 +33,13 @@ public class Bicicleta extends Vehiculo{
         System.out.println("Modelo: "+modelo+" Marca: "+marca+" Numero Engranajes: "+numeroEngranajes);
     }//impriirBcicicleta
     /**
+     * metodo que muestra la impresion implementada de la interface
+     */
+    @Override
+    public void imprimirInterface() {
+        System.out.println("Impresion de la interface en Bicicleta");
+    }//imprimirInterface
+    /**
      * retorna el numero de engranajes de la bicicleta
      * @return numeroEngranajes
      */
